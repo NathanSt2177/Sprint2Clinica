@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilosvistas.css">
+    <title>Vista Paciente </title>
+</head>
+<body>
+    <div class="vista-solicitud">
+    <div>
+        <h1>Solicitud Citas Médicas</h1>
+    </div>
+    <form action="">
+    <input type="radio" id="radiopresencial" name="radio" value="presencial">
+    <label for="radiopresencial">Presencial</label>
+    <input type="radio" id="radiovirtual" name="radio" value="virtual">
+    <label for="radiovirtual">Virtual</label>
+    <br>
+    <label for="fecha"> Fecha Deseada </label>
+    <input type="date" name="fecha" id="fecha">
+    <br>
+    <label for="hora">Hora Deseada </label>
+    <input type="time" name="hora" id="hora">
+    <br>
+    <label for="ciudad">Ciudad</label>
+    <input type="text" name="ciudad" id="ciudad">
+    <br>
+    <label for=""> Seleccione su Medico</label>
+    <select name="medico" id="medico">
+        <option value="1">Ana </option>
+        <option value="1">Simon </option>
+        <option value="1">Samanta </option>
+        <option value="1">Dario</option>
+    </select>
+    <div class="btn-enviar">
+    <input type="submit" name="enviar" id="btn-enviar"></div>
+</form>
+</div>
+</body>
+</html>

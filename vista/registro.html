@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../css/estiloformulario.css">
+
+</head>
+
+<body>
+
+    <div class="Formulario">
+    <div class="contenido">  
+        <h2>Recuperar contraseña</h2>
+   <div class="cont-secc" style="margin: 15px 5px;">
+    <label for="Contra">Contraseña nueva</label>
+    <input type="password" placeholder="ingrese nueva contraseña">
+    </div>
+    <div class="cont-secc" style="margin: 15px 5px;">
+      <label for="RContra">Repita la contraseña nueva</label>
+      <input type="password" placeholder="ingrese nueva contraseña">
+      </div>
+    <div class="peso-secc" style="margin: 15px 5px;">
+    <label for="peso">Peso</label>
+    <input type="number" placeholder="digite su peso">
+    </div>
+    <div class="genero">
+    <label>Género</label>
+     <div class="feme-masc">
+        <div class="masc">
+    <label for="radioMasculino">Masculino</label>
+    <input type="radio" id="radioMasculino" name="radioGenero" value="masculino" checked>
+    </div>
+    <div class="feme">
+    <label for="radioFemenino">Femenino</label>
+    <input type="radio" id="radioFemenino" name="radioGenero" value="femenino">
+    </div></div>
+    </div>
+    <div class="phone-secc" style="margin: 15px 5px;">
+    <label for="inputTelefono">Número de Teléfono(+xx-xxx-xxx-xxxx)</label>
+    <input type="tel" name="inputTelefono" id="inputTelefono"
+    placeholder="+xx-xxx-xxx-xxxx" value="+57">
+    </div>
+    <div class="correo-secc" style="margin: 15px 5px;">
+    <label for="inputEmail"> Email </label>
+    <input type="email" id="inputEmail" name="inputEmail" required autocomplete="on">
+    </div>
+    <div class="eps-secc" style="margin: 15px 5px;">
+    <label for="eps">Eps</label>
+    <input type="text" placeholder="ingrese su eps">
+    </div>
+    <div class="rol-secc" style="margin: 15px 5px;">
+    <label for="rol">Rol</label>
+    <select name="roles">
+        <option value="value1">Administrador</option>
+        <option value="value2" selected>Médico</option>
+        <option value="value3">Paciente</option>
+      </select>
+      <div class="politica-seg">
+        <input type="checkbox" id="cbox" value="checkbox"> <label for="cbox">acepto la politica de segurtidad y tratamiento de datos</label>
+      </div>
+        </div>     
+    <input type="submit" value="Guardar">
+</div> 
+</div>
+    
+</form>
+</div>
+    
+
+</body>
+</html>

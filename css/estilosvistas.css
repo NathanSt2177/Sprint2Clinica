@@ -1,0 +1,73 @@
+.vista-consulta, .vista-eleccion, .vista-medico, .vista-solicitud, 
+.vista-superadmin {
+    width: 300px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position: relative;
+    box-sizing: content-box;
+    padding: 30px 30px;
+    margin: 20px auto 30px auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../imagenes/doctor.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}  
+.vista-consulta h1, .vista-eleccion h1, .vista-medico h1, .vista-solicitud,
+.vista-superadmin h1{
+    text-align: center;
+    margin: 0;    
+    } 
+.vista-medico h2{
+    text-align: center;
+        margin: 0;    
+}   
+.vista-eleccion label, .vista-consulta label, .vista-medico label,
+.vista-solicitud label, .vista-superadmin{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    height: 15px;
+}
+.star-rating a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.star-rating a:hover{
+    color: #fff;
+}
+.vista-consulta input[type="button"], .vista-eleccion input[type="button"],
+.vista-medico input[type="button"], .vista-solicitud input[type="button"], 
+.vista-superadmin input[type="button"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+}
+    input, select{
+    width: 100%;
+}
+.vista-solicitud input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+
+
+}
+                        
+    

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estiloformulario.css">
+    <title>Super Administrador</title>
+</head>
+<body>
+    <div class="Formulario">
+    <div class="contenido">
+    <h2> Gestión del Centro Médico</h2>
+    </div>
+
+    <div class="genero">
+    <label>Género</label>
+        <div class="feme-masc">
+        <div class="masc">
+    <label for="personalmedico">Personal Médico</label>
+    <input type="radio" id="personalmedico" name="radiomedico" value="Personalmedico" checked>
+    </div>
+    <div class="masc">
+    <label for="paciente">Paciente</label>
+    <input type="radio" id="paciente" name="radiopaciente" value="Paciente">
+    </div>
+<div class="masc">
+    <label for="radionoche">Historia Clínica</label>
+    <input type="radio" id="radionoche" name="radiopaciente" value="Historia Clínica"></div>
+    </div>
+    <br>
+    <h3>Realizar buqueda por:</h3>
+
+    <label for="nombremodificacion"> Nombre</label>
+    <input type="text" name="nombremodificacion" id="nombremodificacion">
+    <br>
+    <label for="idmodificacion"> ID</label>
+    <input type="number" name="idmodificacion" id="idmodificacion">
+    <br>
+    <br>
+    <input type="button" value="Consultar">
+
+    <br>
+    <h3>Resutados</h3>
+    <label for="nombresujeto"> Nombre Sujeto o Historia </label>
+    <input type="text" name="nombresujeto" id="nombresujeto">
+    <br>
+    <label for="idsujeto"> ID Sujeto o Historia  </label>
+    <input type="number" name="idsujeto" id="idsujeto">
+    <br>
+    <label for="fechaingreso"> Ingreso del Sujeto o Historia </label>
+    <input type="datetime" name="fechaingreso" id="fechaingreso" placeholder="dd/mm/aa">
+    <br>
+    <br>
+ <h3>Comentarios Usuario Administrador </h3>
+
+    <textarea name="comentariosuperadmin" rows="10" cols="35">
+    El enfermero xxxxxx ha presentado un buen rendimiento en su periodo de prueba ....
+    </textarea>
+    <br>
+    <br>
+    <input type="submit" value="Eliminar Sujeto o Historia">
+    <br>
+    <br>
+    <input type="submit" value="Actualizar Sujeto o Historia">
+
+
+</div>  
+</body>
+</html>

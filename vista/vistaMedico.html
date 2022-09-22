@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilosvistas.css">
+    <title>Vista Médico</title>
+</head>
+<body>
+    <div class="vista-medico">
+        <div class="titulo-vista">
+    <h1>Gestión de Pacientes</h1></div>
+
+    <h2> Bienvenido Dr(a) xxxx xxxxx </h2>
+    <form action="">
+    <br>
+    <label for="fecha"> Fecha de la consulta </label>
+    <input type="datetime-local" name="fecha" id="fecha">
+    <br>
+    <label for="nombrepaciente"> Nombre del paciente </label>
+    <input type="text" name="nombrepaciente" id="nombrepaciente">
+    <br>
+    <label for="idpaciente"> Numero de Identificacion  </label>
+    <input type="number" name="idpaciente" id="idpaciente">
+    <br>
+    <label for="numeropaciente"> Numero de Contacto  </label>
+    <input type="tel" name="numeropaciente" id="numeropaciente">
+    <br>
+    <label for="emailpaciente"> Email  </label>
+    <input type="email" name="emailpaciente" id="emailpaciente">
+    <br>
+    <label for="rh"> RH  </label>
+    <select name="rh" id="rh">
+        <option value="1">A+</option>
+        <option value="1">A-</option>
+        <option value="1">B+</option>
+        <option value="1">B-</option>
+    </select>
+    <br>
+    <br>
+    <div class="comentarios">
+  <h3>Comentarios</h3>
+    <textarea name="comentario" rows="10" cols="40">
+    El paciente tiene goza de buena salud aunque tiene sobrepeso...
+    </textarea></div>
+<br>
+    <input type="button" value="Crea Hisoria Médica">
+    <input type="button" value="Actualizar Historia Médica">
+
+
+</div>
+</body>
+</html>
